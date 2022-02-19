@@ -1,0 +1,36 @@
+#main-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #main-grid {
+    grid-template-columns: auto;
+  }
+}
+
+.head,
+.cell {
+  padding: 10px;
+}
+
+.head {
+  font-weight: bold;
+  border: 1px solid #f18e8e;
+  background: #ffbfbf;
+}
+
+.cell {
+  border: 1px solid #c2ba3c;
+  background: #f8ffde;
+}
+
+#button {
+  display: flex;
+  padding: 10px;
+}
+
+a:hover {
+  color: orange;
+}
